@@ -1,7 +1,7 @@
 # ========================================================
 # Stage: Builder
 # ========================================================
-FROM golang:1.22-alpine AS builder
+FROM golang:1.22-bullseye AS builder
 WORKDIR /app
 ARG TARGETARCH
 
